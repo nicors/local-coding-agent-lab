@@ -10,3 +10,5 @@ O baseline usa o binário CUDA nativo de Windows do `llama.cpp`, executado a par
 | Origem | `ggml-org/llama.cpp` no GitHub |
 
 Instalar o runtime em `C:\\Users\\Nico\\projects\\local-coding-agent-runtime\\llama.cpp-b10964\\`; essa pasta fica fora do repositório e não é versionada. O executável não deve permanecer no disco Linux do WSL: o Windows o inicia a partir de um caminho UNC e o `llama-server` pode ficar bloqueado. Antes de baixar o modelo, valide `llama-server.exe --version` e depois use o perfil em `qwen2.5-coder-14b-initial.args`.
+
+No primeiro teste, a porta `8080` já estava ocupada; o perfil usa `8081`. Como o servidor é um processo Windows, a validação local deve usar `curl.exe` ou outro cliente nativo do Windows em `http://127.0.0.1:8081/v1`.

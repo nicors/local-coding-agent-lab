@@ -4,7 +4,7 @@
 
 | Ordem | Modelo | Papel | Situação |
 | --- | --- | --- |
-| 1 | Qwen2.5-Coder-14B-Instruct | Baseline prático de coding | Próximo teste |
+| 1 | Qwen2.5-Coder-14B-Instruct | Baseline prático de coding | Servidor e API validados |
 | 2 | gpt-oss-20b | Comparação de raciocínio e tool use | Requer mais RAM no WSL |
 | 3 | Qwen3-Coder-30B-A3B-Instruct | Teto MoE para coding agent | Requer mais RAM no WSL |
 

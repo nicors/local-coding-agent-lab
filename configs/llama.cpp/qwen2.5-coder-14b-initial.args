@@ -1,11 +1,13 @@
 # Perfil inicial para RTX 5060 Ti 8 GiB + WSL2 com 15 GiB de RAM.
-# Substitua apenas o caminho do modelo em uma cópia local deste arquivo.
+# O llama-server executa nativamente no Windows: use um caminho Windows.
 --model
-/absolute/path/to/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf
+C:\Users\Nico\projects\local-coding-agent-runtime\models\qwen2.5-coder-14b-instruct-q4_k_m.gguf
+--alias
+qwen2.5-coder-14b-instruct-q4_k_m
 --host
 127.0.0.1
 --port
-8080
+8081
 --ctx-size
 8192
 --gpu-layers
