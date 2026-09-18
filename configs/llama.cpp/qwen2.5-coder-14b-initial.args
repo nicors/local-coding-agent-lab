@@ -1,0 +1,14 @@
+# Perfil inicial para RTX 5060 Ti 8 GiB + WSL2 com 15 GiB de RAM.
+# Substitua apenas o caminho do modelo em uma cópia local deste arquivo.
+--model
+/absolute/path/to/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf
+--host
+127.0.0.1
+--port
+8080
+--ctx-size
+8192
+--gpu-layers
+24
+--threads
+0

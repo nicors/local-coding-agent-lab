@@ -20,9 +20,9 @@ O primeiro marco é um baseline reproduzível, sem kernels, patches ou parâmetr
 
 ## Próximo passo
 
-1. Escolher 2–3 modelos candidatos e registrar suas versões em `models/README.md`.
-2. Copiar e ajustar `configs/llama.cpp/baseline.args` para a máquina.
-3. Subir o servidor com `llama-server $(tr '\n' ' ' < configs/llama.cpp/baseline.args)`.
+1. Iniciar pelo Qwen2.5-Coder-14B-Instruct conforme `models/candidates.md`.
+2. Copiar e ajustar `configs/llama.cpp/qwen2.5-coder-14b-initial.args` para a máquina.
+3. Subir o servidor com `llama-server $(tr '\n' ' ' < configs/llama.cpp/qwen2.5-coder-14b-initial.args)`.
 4. Configurar o provedor local conforme `configs/opencode/README.md`.
 5. Rodar uma tarefa pequena e registrar o resultado em `benchmarks/results/`.
 
