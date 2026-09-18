@@ -33,6 +33,7 @@ fi
 mkdir -p "$run_dir"
 cp -a "$fixture_dir" "$workspace_dir"
 cp "$task_file" "$run_dir/BENCHMARK_TASK.md"
+cp "$task_file" "$workspace_dir/BENCHMARK_TASK.md"
 printf '%s\n' \
     "model_slug: $model_slug" \
     "task_id: $task_id" \
