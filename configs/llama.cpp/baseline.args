@@ -1,0 +1,12 @@
+# Copie para um arquivo local e substitua os valores conforme a máquina.
+# Caminhos de modelo devem permanecer fora do Git.
+--model
+/absolute/path/to/model.gguf
+--host
+127.0.0.1
+--port
+8080
+--ctx-size
+32768
+--threads
+0

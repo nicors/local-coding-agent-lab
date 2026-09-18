@@ -1,0 +1,21 @@
+# Modelos e artefatos grandes
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/downloads/
+
+# Resultados locais e profiling
+benchmarks/results/raw/
+benchmarks/results/*.jsonl
+profiling-output/
+
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
