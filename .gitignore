@@ -20,3 +20,7 @@ profiling-output/
 Thumbs.db
 .idea/
 .vscode/
+
+# Python test artefacts
+__pycache__/
+*.py[cod]
