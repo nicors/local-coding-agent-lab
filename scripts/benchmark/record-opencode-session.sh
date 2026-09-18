@@ -17,12 +17,16 @@ if [[ ! -d "$run_dir" ]]; then
     exit 1
 fi
 command -v jq >/dev/null || { echo "jq é necessário" >&2; exit 1; }
-command -v opencode >/dev/null || { echo "opencode não está no PATH; abra um shell novo ou use o caminho do CLI" >&2; exit 1; }
+opencode_bin="${OPENCODE_BIN:-$(command -v opencode || true)}"
+if [[ -z "$opencode_bin" && -x "$HOME/.opencode/bin/opencode" ]]; then
+    opencode_bin="$HOME/.opencode/bin/opencode"
+fi
+[[ -n "$opencode_bin" && -x "$opencode_bin" ]] || { echo "opencode não está disponível; abra um shell novo ou defina OPENCODE_BIN" >&2; exit 1; }
 
 temp_output="$(mktemp)"
 temp_json="$(mktemp)"
 trap 'rm -f "$temp_output" "$temp_json"' EXIT
-opencode export "$session_id" --sanitize > "$temp_output"
+"$opencode_bin" export "$session_id" --sanitize > "$temp_output"
 sed -n '/^{/,$p' "$temp_output" > "$temp_json"
 jq empty "$temp_json"
 
