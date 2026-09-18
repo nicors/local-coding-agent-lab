@@ -3,6 +3,7 @@ models/*.gguf
 models/*.bin
 models/*.safetensors
 models/downloads/
+.runtime/
 
 # Resultados locais e profiling
 benchmarks/results/raw/
