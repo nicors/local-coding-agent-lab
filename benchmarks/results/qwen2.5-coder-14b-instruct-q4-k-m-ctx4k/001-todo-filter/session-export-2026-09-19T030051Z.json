@@ -1,0 +1,647 @@
+{
+  "info": {
+    "id": "ses_f4871ba00ffecTHybds20oTMqO",
+    "slug": "calm-forest",
+    "projectID": "3a75fa013eabb6222226cd52f964315747faba81",
+    "directory": "[redacted:session-directory:ses_f4871ba00ffecTHybds20oTMqO]",
+    "path": "benchmarks/results/qwen2.5-coder-14b-instruct-q4-k-m-ctx4k/001-todo-filter/workspace",
+    "title": "[redacted:session-title:ses_f4871ba00ffecTHybds20oTMqO]",
+    "agent": "build",
+    "model": {
+      "id": "qwen2.5-coder-14b-instruct-q4_k_m",
+      "providerID": "llama.cpp"
+    },
+    "version": "1.18.31",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 1719,
+      "output": 424,
+      "reasoning": 0,
+      "cache": {
+        "read": 389,
+        "write": 0
+      }
+    },
+    "time": {
+      "created": 1789785949696,
+      "updated": 1789786172209
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1789785949793
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0b78e46610019MOouOq0Wx2mo2",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "[redacted:text:prt_0b78e4666001WaxuOppFL0ODgF]",
+          "id": "prt_0b78e4666001WaxuOppFL0ODgF",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78e46610019MOouOq0Wx2mo2"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0b78e46610019MOouOq0Wx2mo2",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b78e46aa001YR8KTj0YRlg1xB]",
+          "root": "[redacted:root:msg_0b78e46aa001YR8KTj0YRlg1xB]"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789785949866,
+          "completed": 1789785970810
+        },
+        "id": "msg_0b78e46aa001YR8KTj0YRlg1xB",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": []
+    },
+    {
+      "info": {
+        "role": "user",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "agent": "build",
+        "time": {
+          "created": 1789785970817
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0b78e9881001Ht5FydnWgiygU5",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "compaction",
+          "auto": true,
+          "overflow": true,
+          "id": "prt_0b78e9886001mm6AVt394eJroa",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78e9881001Ht5FydnWgiygU5"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "parentID": "msg_0b78e9881001Ht5FydnWgiygU5",
+        "mode": "compaction",
+        "agent": "compaction",
+        "summary": true,
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b78e98930017GQJYQhD7liQt8]",
+          "root": "[redacted:root:msg_0b78e98930017GQJYQhD7liQt8]"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 608,
+          "input": 472,
+          "output": 130,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 6
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789785970836,
+          "completed": 1789786029726
+        },
+        "finish": "stop",
+        "id": "msg_0b78e98930017GQJYQhD7liQt8",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "snapshot": "[redacted:snapshot:prt_0b78ed8ff001U00Eg8sQrB2Q2p]",
+          "type": "step-start",
+          "id": "prt_0b78ed8ff001U00Eg8sQrB2Q2p",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78e98930017GQJYQhD7liQt8"
+        },
+        {
+          "type": "text",
+          "text": "[redacted:text:prt_0b78ed922001x2hXdIyFngp5qs]",
+          "time": {
+            "start": 1789785987362,
+            "end": 1789786029481
+          },
+          "id": "prt_0b78ed922001x2hXdIyFngp5qs",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78e98930017GQJYQhD7liQt8"
+        },
+        {
+          "reason": "stop",
+          "snapshot": "[redacted:snapshot:prt_0b78f7e10001UThlSz9U3SotVZ]",
+          "type": "step-finish",
+          "tokens": {
+            "total": 608,
+            "input": 472,
+            "output": 130,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 6
+            }
+          },
+          "cost": 0,
+          "id": "prt_0b78f7e10001UThlSz9U3SotVZ",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78e98930017GQJYQhD7liQt8"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1789786029731
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "id": "msg_0b78f7ea30010jDbcO4krgKvv5",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "metadata": {
+            "redacted": "text-metadata:prt_0b78f7ea7001U03448F0GTSLnm"
+          },
+          "synthetic": true,
+          "text": "[redacted:text:prt_0b78f7ea7001U03448F0GTSLnm]",
+          "time": {
+            "start": 1789786029735,
+            "end": 1789786029735
+          },
+          "id": "prt_0b78f7ea7001U03448F0GTSLnm",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78f7ea30010jDbcO4krgKvv5"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0b78f7ea30010jDbcO4krgKvv5",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b78f7eb20013lpvo2Xer3vWXy]",
+          "root": "[redacted:root:msg_0b78f7eb20013lpvo2Xer3vWXy]"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789786029746,
+          "completed": 1789786030020
+        },
+        "id": "msg_0b78f7eb20013lpvo2Xer3vWXy",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": []
+    },
+    {
+      "info": {
+        "role": "user",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "agent": "build",
+        "time": {
+          "created": 1789786030025
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0b78f7fc9001YRNemCayX0FD16",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "compaction",
+          "auto": true,
+          "overflow": true,
+          "id": "prt_0b78f7fcd001l6EUjc7noQcjZE",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78f7fc9001YRNemCayX0FD16"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "parentID": "msg_0b78f7fc9001YRNemCayX0FD16",
+        "mode": "compaction",
+        "agent": "compaction",
+        "summary": true,
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b78f7fd6001yYNaz8yuJn0jbb]",
+          "root": "[redacted:root:msg_0b78f7fd6001yYNaz8yuJn0jbb]"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 943,
+          "input": 683,
+          "output": 126,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 134
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789786030038,
+          "completed": 1789786094839
+        },
+        "finish": "stop",
+        "id": "msg_0b78f7fd6001yYNaz8yuJn0jbb",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "snapshot": "[redacted:snapshot:prt_0b78fd9c7001iFricUsKdxFnlv]",
+          "type": "step-start",
+          "id": "prt_0b78fd9c7001iFricUsKdxFnlv",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78f7fd6001yYNaz8yuJn0jbb"
+        },
+        {
+          "type": "text",
+          "text": "[redacted:text:prt_0b78fd9dc001Ohdy7PoNR2Fcdl]",
+          "time": {
+            "start": 1789786053087,
+            "end": 1789786094647
+          },
+          "id": "prt_0b78fd9dc001Ohdy7PoNR2Fcdl",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78f7fd6001yYNaz8yuJn0jbb"
+        },
+        {
+          "reason": "stop",
+          "snapshot": "[redacted:snapshot:prt_0b7907c5a001OC4yEUI3di70UU]",
+          "type": "step-finish",
+          "tokens": {
+            "total": 943,
+            "input": 683,
+            "output": 126,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 134
+            }
+          },
+          "cost": 0,
+          "id": "prt_0b7907c5a001OC4yEUI3di70UU",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b78f7fd6001yYNaz8yuJn0jbb"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1789786094845
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "id": "msg_0b7907cfd001Juk4aIxJBI6P2N",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "metadata": {
+            "redacted": "text-metadata:prt_0b7907d02001GDwYvivoQY9mpl"
+          },
+          "synthetic": true,
+          "text": "[redacted:text:prt_0b7907d02001GDwYvivoQY9mpl]",
+          "time": {
+            "start": 1789786094850,
+            "end": 1789786094850
+          },
+          "id": "prt_0b7907d02001GDwYvivoQY9mpl",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b7907cfd001Juk4aIxJBI6P2N"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0b7907cfd001Juk4aIxJBI6P2N",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b7907d0a001UiU6ZizdOY1XJ1]",
+          "root": "[redacted:root:msg_0b7907d0a001UiU6ZizdOY1XJ1]"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789786094858,
+          "completed": 1789786095144
+        },
+        "id": "msg_0b7907d0a001UiU6ZizdOY1XJ1",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": []
+    },
+    {
+      "info": {
+        "role": "user",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "agent": "build",
+        "time": {
+          "created": 1789786095153
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0b7907e31001uhS11IXw6pkLLo",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "compaction",
+          "auto": true,
+          "overflow": true,
+          "id": "prt_0b7907e36001VbO6Q58UWGnl1r",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b7907e31001uhS11IXw6pkLLo"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "parentID": "msg_0b7907e31001uhS11IXw6pkLLo",
+        "mode": "compaction",
+        "agent": "compaction",
+        "summary": true,
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b7907e42001C2qQRuvkkCaIeu]",
+          "root": "[redacted:root:msg_0b7907e42001C2qQRuvkkCaIeu]"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 981,
+          "input": 564,
+          "output": 168,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 249
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789786095170,
+          "completed": 1789786172185
+        },
+        "finish": "stop",
+        "id": "msg_0b7907e42001C2qQRuvkkCaIeu",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "snapshot": "[redacted:snapshot:prt_0b790c11a001d531hpH5buE5aB]",
+          "type": "step-start",
+          "id": "prt_0b790c11a001d531hpH5buE5aB",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b7907e42001C2qQRuvkkCaIeu"
+        },
+        {
+          "type": "text",
+          "text": "[redacted:text:prt_0b790c151001ABXxy6Lale20j1]",
+          "time": {
+            "start": 1789786112337,
+            "end": 1789786172009
+          },
+          "id": "prt_0b790c151001ABXxy6Lale20j1",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b7907e42001C2qQRuvkkCaIeu"
+        },
+        {
+          "reason": "stop",
+          "snapshot": "[redacted:snapshot:prt_0b791aac5001RHvL7aMXd1vRmx]",
+          "type": "step-finish",
+          "tokens": {
+            "total": 981,
+            "input": 564,
+            "output": 168,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 249
+            }
+          },
+          "cost": 0,
+          "id": "prt_0b791aac5001RHvL7aMXd1vRmx",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b7907e42001C2qQRuvkkCaIeu"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1789786172191
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "id": "msg_0b791ab1f001EiQKaQHNpiiC8X",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "metadata": {
+            "redacted": "text-metadata:prt_0b791ab23001GW23TffZtIY93E"
+          },
+          "synthetic": true,
+          "text": "[redacted:text:prt_0b791ab23001GW23TffZtIY93E]",
+          "time": {
+            "start": 1789786172195,
+            "end": 1789786172195
+          },
+          "id": "prt_0b791ab23001GW23TffZtIY93E",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b791ab1f001EiQKaQHNpiiC8X"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0b791ab1f001EiQKaQHNpiiC8X",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b791ab2b001dYR4NeT3IA00qs]",
+          "root": "[redacted:root:msg_0b791ab2b001dYR4NeT3IA00qs]"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789786172203,
+          "completed": 1789786172489
+        },
+        "id": "msg_0b791ab2b001dYR4NeT3IA00qs",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": []
+    },
+    {
+      "info": {
+        "role": "user",
+        "model": {
+          "providerID": "llama.cpp",
+          "modelID": "qwen2.5-coder-14b-instruct-q4_k_m"
+        },
+        "agent": "build",
+        "time": {
+          "created": 1789786172497
+        },
+        "id": "msg_0b791ac51001cF5kmIEeHpUYG8",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": [
+        {
+          "type": "compaction",
+          "auto": true,
+          "overflow": true,
+          "id": "prt_0b791ac55001fROYhRkZvQn7TG",
+          "sessionID": "ses_f4871ba00ffecTHybds20oTMqO",
+          "messageID": "msg_0b791ac51001cF5kmIEeHpUYG8"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "parentID": "msg_0b791ac51001cF5kmIEeHpUYG8",
+        "mode": "compaction",
+        "agent": "compaction",
+        "summary": true,
+        "path": {
+          "cwd": "[redacted:cwd:msg_0b791ac5d001XboqPD8MWkYyzw]",
+          "root": "[redacted:root:msg_0b791ac5d001XboqPD8MWkYyzw]"
+        },
+        "cost": 0,
+        "tokens": {
+          "output": 0,
+          "input": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "qwen2.5-coder-14b-instruct-q4_k_m",
+        "providerID": "llama.cpp",
+        "time": {
+          "created": 1789786172509,
+          "completed": 1789786180281
+        },
+        "error": {
+          "name": "MessageAbortedError",
+          "data": {
+            "message": "Aborted"
+          }
+        },
+        "id": "msg_0b791ac5d001XboqPD8MWkYyzw",
+        "sessionID": "ses_f4871ba00ffecTHybds20oTMqO"
+      },
+      "parts": []
+    }
+  ]
+}
